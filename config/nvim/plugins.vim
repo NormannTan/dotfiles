@@ -74,6 +74,9 @@ Plug 'lambdatoast/elm.vim', { 'for': 'elm' }
 " CoffeeScript
 Plug 'kchmck/vim-coffee-script'
 
+" Java
+Plug 'artur-shaik/vim-javacomplete2'
+
 " styles
 Plug 'wavded/vim-stylus', { 'for': ['stylus', 'markdown'] } " markdown support
 Plug 'groenewege/vim-less', { 'for': 'less' } " less support
@@ -92,4 +95,3 @@ Plug 'fatih/vim-go', { 'for': 'go' } " go support
 Plug 'timcharper/textile.vim', { 'for': 'textile' } " textile support
 
 call plug#end()
-
