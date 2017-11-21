@@ -74,8 +74,6 @@ Plug 'lambdatoast/elm.vim', { 'for': 'elm' }
 " CoffeeScript
 Plug 'kchmck/vim-coffee-script'
 
-" Java
-Plug 'artur-shaik/vim-javacomplete2'
 
 " styles
 Plug 'wavded/vim-stylus', { 'for': ['stylus', 'markdown'] } " markdown support
