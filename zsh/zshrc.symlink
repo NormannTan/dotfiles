@@ -63,6 +63,14 @@ if command_exists rbenv; then
     eval "$(rbenv init -)"
 fi
 
+# install pyenv
+if command_exists pyenv; then
+    export WORKON_HOME=~/.ve
+    export PROJECT_HOME=~/workspace
+    eval "$(pyenv init -)"
+    pyenv virtualenvwrapper_lazy
+fi
+
 # zplug config
 export ZPLUG_LOADFILE=$DOTFILES/zsh/zplug.sh
 
